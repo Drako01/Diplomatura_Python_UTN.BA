@@ -1,0 +1,10 @@
+a = input("Ingrese 1 valor para la Variable a: ")
+b = input("Ingrese 1 valor para la Variable b: ")
+print("La lista conformada es: ")
+lista = [int(a),int(b)]
+print(lista)
+suma = (int(a) + int(b))
+lista.append(suma)
+print("La lista completa con la suma entre las Variables es: ")
+print(lista)
+print("La suma de los valores ingresados ", a, " y ", b, " da igual a: ",(int(a)+int(b)))

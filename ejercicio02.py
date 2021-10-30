@@ -12,6 +12,8 @@ texto = "Me gustan mucho las  "
 
 var=IntVar() 
 e.config(textvariable=var)
-var.set(texto+str(frutas[0])+ " pero mas me gustan las "+ str(frutas[1]))
+var.set(texto+str(frutas[0])+ texto + str(frutas[1]))
 
 mainloop()
+
+
