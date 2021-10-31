@@ -26,4 +26,3 @@ var.set(c)
 
 mainloop()
 
-print(123)
