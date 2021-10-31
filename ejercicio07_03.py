@@ -25,3 +25,5 @@ e.config(textvariable=var)
 var.set(c)
 
 mainloop()
+
+print(123)
