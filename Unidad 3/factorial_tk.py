@@ -25,15 +25,15 @@ def calculate():
     info.config(text=result)
 
 titulo = Label(master, text="Ingrese un Numero Entero Positivo").grid(row=2, column=0, sticky=W)
-ruta = Label(master, text="El Factorial del Numero Ingresado es").grid(row=6, column=0, sticky=W)
+ruta = Label(master, text="El Factorial del Numero Ingresado es").grid(row=4, column=0, sticky=W)
 
 entryText = tk.Entry(text=1, bg='white', fg='black')
 entryText.grid(row=2, column=1, sticky=S)
  
 btn = tk.Button(master,text='Calcular', command=calculate, padx=10)
-btn.grid(row=4, column=1, sticky=S)
+btn.grid(row=6, column=1, sticky=S)
  
 info = tk.Label(text='Resultado', bg='white', fg='black')
-info.grid(row=6, column=1, sticky=S)
+info.grid(row=4, column=1, sticky=S)
  
 master.mainloop()
