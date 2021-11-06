@@ -1,3 +1,8 @@
+###################################
+#   Autor: Alejandro Di Stefano   #
+#       Ejercicio Desafio         #
+###################################
+
 from tkinter import *
 
 master = Tk()
