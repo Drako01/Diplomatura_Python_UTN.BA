@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Sobre escribir URLs numericas
+RewriteRule ^articulo/Titulo([0-9]*)/Contenido([0-9]*)\.html$ article.php?idtitulo=$1&idcontenido=$2 [L]
