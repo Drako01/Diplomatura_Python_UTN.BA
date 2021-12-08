@@ -1,0 +1,7 @@
+RewriteEngine On
+
+
+# Rewrite contacto.html 
+# Esta línea de código dice que cuando aparece contenido.html vaya a contenido.php 
+# La L final entre corchetes simplemente indica la finalización.
+RewriteRule ^contenido.html$ contenido.php [L]
