@@ -2,6 +2,8 @@ import modulo4
 
 modulo4.x = 42             # cambia el valor de la x del módulo.
 print(modulo4.x)
+x=5
+print(x)
 
 import modulo4
 print(modulo4.x)
