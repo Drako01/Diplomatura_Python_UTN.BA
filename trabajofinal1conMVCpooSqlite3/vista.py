@@ -43,7 +43,8 @@ class Aplicacion:
 
     def ventana(self):
 
-        self.master.title("Trabajo Final - Nivel Inicial - Diplomatura en Python")
+        self.master.title(
+            "Trabajo Final - Nivel Inicial - Diplomatura en Python")
         self.master.resizable(False, False)
         self.master.config(bd=20)
 
@@ -146,7 +147,8 @@ class Aplicacion:
     def arbol(self):
         # defino la tabla donde se veran los datos
         self.tabla = ttk.Treeview(
-            self.master, columns=("uno", "dos", "tres", "cuatro", "cinco", "seis")
+            self.master, columns=("uno", "dos", "tres",
+                                  "cuatro", "cinco", "seis")
         )
         self.tabla.column("#0", width=100, minwidth=70)
         self.tabla.column("uno", width=100, minwidth=70)
@@ -171,7 +173,8 @@ class Aplicacion:
         )
         self.estilo = ttk.Style(self.master)
         self.estilo.theme_use("alt")
-        self.estilo.configure(".", font=("Helvetica", 12, "bold"), foreground="black")
+        self.estilo.configure(".", font=(
+            "Helvetica", 12, "bold"), foreground="black")
         self.estilo.configure(
             "Treeview", font=("Helvetica", 10), foreground="black", background="white"
         )

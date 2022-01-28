@@ -269,7 +269,8 @@ class control:
         con = sqlite3.connect("Agenda_Contacto")
         self.micursor = con.cursor()
         self.micursor.execute(
-            "SELECT * FROM entidad WHERE DNI =:documento", {"documento": self.dni.get()}
+            "SELECT * FROM entidad WHERE DNI =:documento", {
+                "documento": self.dni.get()}
         )
         self.registro = self.micursor.fetchall()
 

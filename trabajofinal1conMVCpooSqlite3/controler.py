@@ -1,6 +1,5 @@
 from tkinter import *
 from vista import Aplicacion
-from modelo import control
 
 
 class AppPrincipal:
