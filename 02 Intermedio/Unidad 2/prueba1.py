@@ -5,4 +5,4 @@ def recorrerLista(item, nivel=0):      # Agrego valor por defecto
        else: 
           for y in range(nivel): 
               print("\t", end="")                # Agrego indentación en lugar de saltos de línea
-          print(x)
+print(x)
