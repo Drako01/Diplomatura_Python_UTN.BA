@@ -1,0 +1,13 @@
+Puntos más importantes a corregir:
+
+0. ¿Cuál es el archivo principal?
+1. Falta diagrama de flujo de información.
+2. Falta estructura UML (Esto lo vamos a ver en la unidad 6 de está semana)
+3. Falta diagrama de base de datos.
+4. Falta documentación adicional
+5. Posee un deficiente manejo de errores
+6. La app no cumple con pep8
+7. Existe un mal manejo de las importaciones, no es conveniente el uso de *
+8. No se encuentra bien estructurada, se recomienda la utilización del patrón mvc
+9. Se recomienda la mejora de la vista, hay botones que cumplen la misma función.
+10. Existe un mal manejo de los retornos de las expresiones regulares, se retorna un string en lugar de un booleano.
