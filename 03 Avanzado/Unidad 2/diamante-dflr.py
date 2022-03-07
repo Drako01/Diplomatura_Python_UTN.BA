@@ -21,3 +21,4 @@ class A(B, C):
 instancia = A()
 print(instancia.atributo)
 print(A.__mro__)
+print(type(A))

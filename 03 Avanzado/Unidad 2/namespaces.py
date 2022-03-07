@@ -8,6 +8,9 @@ class ClasePadre:
 class ClaseHija(ClasePadre):
 
     atributo1 = "azul"
+    
+    class Meta:
+        color_de_ojos = "Verde"
 
     def metodo1(self):
         pass
@@ -20,3 +23,4 @@ print(ClaseHija.__bases__)
 print(ClasePadre.__bases__)
 print(list(ClaseHija.__dict__.keys()))
 print(list(ClasePadre.__dict__.keys()))
+print(ClaseHija.Meta.color_de_ojos)
